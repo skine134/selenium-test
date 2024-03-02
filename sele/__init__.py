@@ -1,1 +1,1 @@
-from selenium_crawler import selenium_crawler
+from . import selenium_crawler
