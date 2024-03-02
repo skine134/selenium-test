@@ -7,9 +7,10 @@ setup(
     author='skine134',
     author_email='skine134',
     license='bear',
-    packages=['sele'],
+    packages=['sele','spk'],
     zipa_safe=False,
     install_requires=[
-        'selenium==4.18.1'
+        'selenium==4.18.1',
+        'pyspark==3.5.1'
     ]
 )
